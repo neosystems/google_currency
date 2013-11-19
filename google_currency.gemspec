@@ -15,7 +15,7 @@ Gem::Specification.new do |s|
   s.add_development_dependency "yard", ">= 0.5.8"
   s.add_development_dependency "ffi"
 
-  s.add_dependency "money", "~> 6.0"
+  s.add_dependency "money", "~> 6.0", :git => "git://github.com/viglesias/money.git"
 
   s.files =  Dir.glob("{lib,spec}/**/*")
   s.files += %w(LICENSE README.md CHANGELOG.md AUTHORS)
